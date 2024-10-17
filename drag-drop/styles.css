@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  width: 100vw;
+  height: 5rem;
+  font-size: 3rem;
+  padding: 1rem;
+  box-shadow: 0 0 18px -8px grey;
+  text-align: center;
+}
+
+.container {
+  padding: 1rem;
+  margin: 2rem;
+  background-color: #333;
+}
+
+.box {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: white;
+  cursor: move;
+}
+
+.box.dragging {
+  opacity: 0.5;
+}
