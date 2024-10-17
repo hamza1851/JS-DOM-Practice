@@ -12,12 +12,15 @@ body {
 }
 
 .container {
+  text-align: center;
+  color: white;
   padding: 1rem;
   margin: 2rem;
   background-color: #333;
 }
 
 .box {
+  color: #333;
   padding: 1rem;
   margin: 1rem;
   background-color: white;
